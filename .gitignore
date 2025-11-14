@@ -1,0 +1,72 @@
+########################
+# Maven
+########################
+target/
+*.log
+
+########################
+# IntelliJ IDEA
+########################
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Optional IDEA files to ignore
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/libraries/
+
+########################
+# Kotlin (if present)
+########################
+.kotlin/
+
+########################
+# OS Files
+########################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+########################
+# Build Artifacts
+########################
+*.class
+*.war
+*.ear
+
+########################
+# Eclipse
+########################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+########################
+# NetBeans
+########################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+########################
+# VS Code
+########################
+.vscode/
+
+########################
+# Keep important files
+########################
+!pom.xml
+!src/
+!webapp/
+!convertFile.sql
