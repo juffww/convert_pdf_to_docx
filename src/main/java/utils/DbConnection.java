@@ -7,9 +7,8 @@ import java.sql.SQLException;
 public class DbConnection {
 	private static final String DEFAULT_USER = "root";
 	// private static final String DEFAULT_URL = "jdbc:mysql://localhost:3307/convert_file?useSSL=false&serverTimezone=UTC";
-	// private static final String DEFAULT_PASS = "123456789";
-    private static final String DEFAULT_URL = "jdbc:mysql://localhost:3306/convert_file?useSSL=false&serverTimezone=UTC";
 	private static final String DEFAULT_PASS = "";
+    private static final String DEFAULT_URL = "jdbc:mysql://localhost:3306/convert_file?useSSL=false&serverTimezone=UTC";
 
 	public static Connection getConnection() throws SQLException {
 		String url = System.getenv().getOrDefault("DB_URL", DEFAULT_URL);
