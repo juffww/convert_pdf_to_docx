@@ -69,4 +69,7 @@ desktop.ini
 !pom.xml
 !src/
 !webapp/
-!convertFile.sql
+convertFile.sql
+create-project.sh
+deploy.sh
+run-tomcat.sh
